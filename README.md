@@ -1,1 +1,1 @@
-# TimeTimer
+# TimeBuddy
