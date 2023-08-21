@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TimeBuddy</string>
+
+    <string name="user_no_time_message">타이머를 입력해주세요</string>
+    <string name="timer_view_start_btn_text">시작</string>
+    <string name="timer_view_cancel_btn_text">취소</string>
+    <string name="timer_view_pause_btn_text">일시중지</string>
+    <string name="timer_view_resume_btn_text">다시시작</string>
 </resources>

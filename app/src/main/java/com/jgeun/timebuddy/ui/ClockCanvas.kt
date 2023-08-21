@@ -17,7 +17,6 @@ import kotlin.math.sin
 fun ClockCanvas(
 	modifier: Modifier,
 	clockStyle: ClockStyle,
-	addAngle: (Float) -> Unit,
 ) {
 
 	Canvas(
@@ -30,7 +29,6 @@ fun ClockCanvas(
 		repeat(gradationCount) { index ->
 			val angleInDegree = (index * 360 / gradationCount).toDouble()
 			val angleInRadian = Math.toRadians(angleInDegree)
-			addAngle(angleInDegree.toFloat())
 
 			val isHourGradation = index % 5 == 0
 			val length = if (isHourGradation) {

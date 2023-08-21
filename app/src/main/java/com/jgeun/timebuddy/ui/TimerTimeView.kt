@@ -12,6 +12,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.jgeun.timebuddy.ui.theme.TimerTimeTextBgColor
 
 @Composable
 fun TimerTimeView(
@@ -19,7 +20,7 @@ fun TimerTimeView(
 ) {
 	Box(
 		modifier = Modifier.wrapContentSize()
-			.background(color = Color(0xA6777777), shape = RoundedCornerShape(4.dp))
+			.background(color = TimerTimeTextBgColor, shape = RoundedCornerShape(4.dp))
 	) {
 		Text(
 			modifier = Modifier
